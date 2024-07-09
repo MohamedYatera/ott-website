@@ -1,0 +1,88 @@
+.Testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 5rem;
+}
+
+.left-t{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: rgb(139, 203, 255);
+}
+
+
+.left-t>:nth-child(1){
+    color: #c2bed8;
+    font-weight: bold;
+
+}
+
+.left-t>:nth-child(2),
+.left-t>:nth-child(3){
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+
+.left-t>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+
+.right-t{
+    display: flex;
+    position: relative;
+ 
+}
+
+.right-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.right-t>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid #8bcbff;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background: rgb(139,203,255);
+    background: linear-gradient(90deg, rgba(139,203,255,1) 0%, rgba(194,190,216,1) 100%); 
+}
+
+.arrows{
+    display: flex;
+    position: absolute;
+    gap: 1rem;
+    bottom: -2rem;
+    right: 55rem;
+    
+}
+
+
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}

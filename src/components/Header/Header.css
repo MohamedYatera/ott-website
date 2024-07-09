@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    width: 15rem;
+    height: 3rem;
+}
+
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.header-menu>li>a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+.header-menu :hover{
+    cursor: pointer;
+    color: #f48915;
+  
+}
