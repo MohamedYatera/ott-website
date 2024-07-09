@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ott-website/static/css/main.bbe9acf6.css",
+    "main.js": "/ott-website/static/js/main.71940082.js",
+    "static/media/goku.png": "/ott-website/static/media/goku.04c024926b44fba072d1.png",
+    "static/media/Akatsuki.png": "/ott-website/static/media/Akatsuki.8f4e6e94894512960a95.png",
+    "static/media/gympic6.png": "/ott-website/static/media/gympic6.cfd337d5703098ce1a0d.png",
+    "static/media/t-image2.png": "/ott-website/static/media/t-image2.8a2ee7fe79db17e3c712.png",
+    "static/media/t-image1.png": "/ott-website/static/media/t-image1.2361041825c65acf9df8.png",
+    "static/media/gympic2.jpg": "/ott-website/static/media/gympic2.fb55a8e04d84cb0f5366.jpg",
+    "static/media/law.png": "/ott-website/static/media/law.443e9bc23af835e173fc.png",
+    "static/media/t-image3.png": "/ott-website/static/media/t-image3.f0bf73047a8610bab1e7.png",
+    "static/media/gympic1.jpg": "/ott-website/static/media/gympic1.43fb75df93036555fd8d.jpg",
+    "static/media/gympic3.jpg": "/ott-website/static/media/gympic3.a57847f01a10f1a8eb64.jpg",
+    "static/media/gympic8.jpg": "/ott-website/static/media/gympic8.eca7676f36159d073953.jpg",
+    "static/media/bgimage.png": "/ott-website/static/media/bgimage.c4864497e040a1214b53.png",
+    "static/media/gympic9.jpg": "/ott-website/static/media/gympic9.bb6f0c3137cbc63dcaf5.jpg",
+    "static/media/gympic5.jpg": "/ott-website/static/media/gympic5.e82abd461fc5387612dc.jpg",
+    "static/media/gympic7.jpeg": "/ott-website/static/media/gympic7.0ed28a04d7fe8b9ba493.jpeg",
+    "static/media/logo.png": "/ott-website/static/media/logo.f2446ca8ff18c02fc2cc.png",
+    "index.html": "/ott-website/index.html",
+    "main.bbe9acf6.css.map": "/ott-website/static/css/main.bbe9acf6.css.map",
+    "main.71940082.js.map": "/ott-website/static/js/main.71940082.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe9acf6.css",
+    "static/js/main.71940082.js"
+  ]
+}
