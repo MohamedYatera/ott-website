@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ott-website/static/css/main.c6d3482f.css",
-    "main.js": "/ott-website/static/js/main.eb8d6ff0.js",
+    "main.css": "/ott-website/static/css/main.b2b238e6.css",
+    "main.js": "/ott-website/static/js/main.485555d7.js",
     "static/media/goku.png": "/ott-website/static/media/goku.04c024926b44fba072d1.png",
     "static/media/Akatsuki.png": "/ott-website/static/media/Akatsuki.8f4e6e94894512960a95.png",
     "static/media/gympic6.png": "/ott-website/static/media/gympic6.cfd337d5703098ce1a0d.png",
@@ -18,11 +18,11 @@
     "static/media/gympic7.jpeg": "/ott-website/static/media/gympic7.0ed28a04d7fe8b9ba493.jpeg",
     "static/media/logo.png": "/ott-website/static/media/logo.f2446ca8ff18c02fc2cc.png",
     "index.html": "/ott-website/index.html",
-    "main.c6d3482f.css.map": "/ott-website/static/css/main.c6d3482f.css.map",
-    "main.eb8d6ff0.js.map": "/ott-website/static/js/main.eb8d6ff0.js.map"
+    "main.b2b238e6.css.map": "/ott-website/static/css/main.b2b238e6.css.map",
+    "main.485555d7.js.map": "/ott-website/static/js/main.485555d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d3482f.css",
-    "static/js/main.eb8d6ff0.js"
+    "static/css/main.b2b238e6.css",
+    "static/js/main.485555d7.js"
   ]
 }
