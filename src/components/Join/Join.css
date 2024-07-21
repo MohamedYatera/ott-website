@@ -37,7 +37,7 @@
 .form-component {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   height: fit-content;
   margin: 0 auto;
   background-color: rgb(196, 199, 196);
@@ -159,7 +159,7 @@ select {
 .progress-bar .dot {
   width: 10px;
   height: 10px;
-  background-color: #ccc;
+  background-color: #776d6d;
   border-radius: 50%;
   border: 2px dotted #ccc;
 }

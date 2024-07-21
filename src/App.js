@@ -10,6 +10,8 @@ import MultiFilters from './components/Plan/MultiFilters';
 import { IntlProvider } from 'react-intl';
 import { messages } from './messages';
 import Header from './components/Header/Header';
+import Faq from './components/Faq/Faq';
+
 
 function App() {
   const [locale, setLocale] = useState('en');
@@ -28,6 +30,7 @@ function App() {
         <MultiFilters />
         <Testimonials />
         <Join />
+        <Faq/>
         <Footer />
       </div>
     </IntlProvider>

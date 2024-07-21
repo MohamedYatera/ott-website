@@ -1,6 +1,5 @@
 import React from "react";
 import "./main.css";
-import Header from "../Header/Header";
 import Heart from "../../assets/heart.png";
 import goku from "../../assets/goku.png";
 import bgimage from "../../assets/bgimage.png";
@@ -77,6 +76,7 @@ const Main = () => {
           className="bg-image"
         />
       </div>
+      
     </div>
   );
 };

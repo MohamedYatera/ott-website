@@ -1,12 +1,25 @@
 import React, { useEffect, useState } from "react";
 import { items } from "./items";
 import './style.css';
+import { useIntl } from 'react-intl';
 
 export default function MultiFilters() {
+  const { formatMessage } = useIntl();
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(items);
 
-  let filters = ["Beginner", "Intermediate", "Advanced", "Weight Loss","Muscle Gain", "Cardio Fitness", "Strength Training", "Flexibility & Mobility", "Personal Training", "Group Classes"];
+  let filters = [
+    formatMessage({ id: 'beginner' }),
+    formatMessage({ id: 'intermediate' }),
+    formatMessage({ id: 'advanced' }),
+    formatMessage({ id: 'weightLoss' }),
+    formatMessage({ id: 'muscleGain' }),
+    formatMessage({ id: 'cardioFitness' }),
+    formatMessage({ id: 'strengthTraining' }),
+    formatMessage({ id: 'flexibilityMobility' }),
+    formatMessage({ id: 'personalTraining' }),
+    formatMessage({ id: 'groupClasses' })
+  ];
 
   const handleFilterButtonClick = (selectedCategory) => {
     if (selectedFilters.includes(selectedCategory)) {
@@ -34,8 +47,9 @@ export default function MultiFilters() {
   };
 
   return (
-    <div>
-       <p className="center-text">Find A Program That Suits You !</p>
+    <div className="cont">
+       <p className="center-text">{formatMessage({ id: 'findProgram' })}</p>
+       <hr />
       <div className="buttons-container2" id="programs">
         {filters.map((category, idx) => (
           <button

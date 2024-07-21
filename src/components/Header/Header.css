@@ -38,10 +38,11 @@
   }
   
   .language-switcher {
+    margin-top: -8px;
     background: none;
     border: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;
   }
