@@ -25,7 +25,7 @@ p {
 }
 .button {
   font-weight: 600;
-  background-color:  #99a4a8;
+  background-color:  #c9c7c7;
   border: 1px solid #000000;
   color: #21394d;
   font-size: 22px;
@@ -65,18 +65,47 @@ p {
     font-size: 60px;
    
   }  
+
+  .blur3{
+    background: rgb(72, 151, 145);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(500px);
+    z-index: -9;
+  }
+
+  .main-blur3{
+    width: 70rem;
+    height: 50rem;
+    left: 25rem;
+}
+
+.blur4{
+  background: rgb(125, 97, 148);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(500px);
+  z-index: -9;
+}
+
+.main-blur4{
+  width: 70rem;
+  height: 50rem;
+  left: 25rem;
+}
+
+  
   
 
 .item2 {
-    background: rgb(43,46,46);
-background: linear-gradient(1deg, rgb(144, 151, 151) 0%, rgb(33, 65, 66) 100%);
+   background-color: rgb(187, 184, 184);
   gap: 5px;
   font-size: 25px;
   padding: 4px 10px;
   max-width: 350px;
-  min-height: 192px;
+  min-height: 195px;
   margin: 4px 10px;
-  border: 1px solid #000000;
+  border: 1px solid #436c85;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -84,7 +113,7 @@ background: linear-gradient(1deg, rgb(144, 151, 151) 0%, rgb(33, 65, 66) 100%);
 }
 
 .itm-names{
-    color: #b3dcdd;
+    color: #070f5f;
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 500;
@@ -92,26 +121,27 @@ background: linear-gradient(1deg, rgb(144, 151, 151) 0%, rgb(33, 65, 66) 100%);
 
 
 .description {
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
 .duration {
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     margin-bottom: 10px;
   }
 
 .cost {
-    color: #b3dcdd;
+    color: #0d0574;
     font-size: 15px;
     font-weight: bold;
     
 }
 
 .cat {
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     font-weight: bold;
     

@@ -48,6 +48,7 @@ export default function MultiFilters() {
 
   return (
     <div className="cont">
+      <div className="blur4 main-blur4"></div>
        <p className="center-text">{formatMessage({ id: 'findProgram' })}</p>
        <hr />
       <div className="buttons-container2" id="programs">
@@ -65,6 +66,7 @@ export default function MultiFilters() {
       </div>
 
       <div className="items-container2">
+      <div className="blur3 main-blur3"></div>
         {filteredItems.map((item, idx) => (
           <div key={`items-${idx}`} className="item2">
             <p className="itm-names">{item.name}</p>
