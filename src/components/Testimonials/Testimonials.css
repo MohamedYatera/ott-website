@@ -86,3 +86,18 @@
     width: 1.5rem;
     cursor: pointer;
 }
+
+.blur6{
+    background: rgba(7, 243, 184, 0.068);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(500px);
+    z-index: -9;
+  }
+  
+  .main-blur6{
+    width: 100rem;
+    height: 50rem;
+    left: 15rem;
+  }
+  

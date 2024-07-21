@@ -113,7 +113,8 @@ const Join = () => {
   };
 
   return (
-    <div className='Join' id='testimonials'>
+    
+    <div className='Join' id='join'>
       <div className="left-j">
         <hr />
         <div>
@@ -201,7 +202,7 @@ const Join = () => {
           {step === 3 && (
             <div>
               <div className="form-group">
-                <label htmlFor="plan">Plan:</label>
+                <label htmlFor="plan">Category:</label>
                 <select
                   id="plan"
                   value={plan}
@@ -276,6 +277,7 @@ const Join = () => {
           <div className="location-info">
             <h3>Our Location</h3>
             <p>Wellington St, Ottawa, ON K1A 0A9</p>
+            <p>613 323 32323</p>
             <h4>Hours:</h4>
             <p>Monday - Friday: 6am - 12pm</p>
             <p>Saturday - Sunday: 8am - 12pm</p>

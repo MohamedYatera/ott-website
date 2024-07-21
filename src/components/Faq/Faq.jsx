@@ -40,8 +40,14 @@ const FAQ = () => {
   };
 
   return (
-    <section className="faq-section">
-      <h2>Frequently Asked Questions</h2>
+    <section className="faq-section" id='faq'>
+      <div className="blur5 main-blur5"></div>
+      <div className="title">
+        <h2>Frequently</h2>
+        <h2 className='stroke-text'>Asked</h2>
+        <h2>Questions</h2>
+      </div>
+    
       <div>
         {faqs.map((faq, index) => (
           <div key={index} className="faq-item">

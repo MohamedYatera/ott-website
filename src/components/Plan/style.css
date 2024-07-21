@@ -67,7 +67,7 @@ p {
   }  
 
   .blur3{
-    background: rgb(72, 151, 145);
+    background: rgba(72, 151, 144, 0.521);
     position: absolute;
     border-radius: 50%;
     filter: blur(500px);
@@ -81,7 +81,7 @@ p {
 }
 
 .blur4{
-  background: rgb(125, 97, 148);
+  background: rgba(125, 97, 148, 0.356);
   position: absolute;
   border-radius: 50%;
   filter: blur(500px);

@@ -18,6 +18,7 @@ const Header = ({ locale, handleLanguageChange }) => {
           <li><a href="#plan">{formatMessage({ id: 'plans' })}</a></li>
           <li><a href="#programs">{formatMessage({ id: 'programs' })}</a></li>
           <li><a href="#testimonials">{formatMessage({ id: 'testimonials' })}</a></li>
+          <li><a href="#faq">{formatMessage({ id: 'FAQs' })}</a></li>
           <li><a href="#join">{formatMessage({ id: 'joinUs' })}</a></li>
           <li>
             <select className="language-switcher" onChange={handleLanguageChange} value={locale}>

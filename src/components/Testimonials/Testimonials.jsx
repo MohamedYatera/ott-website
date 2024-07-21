@@ -15,6 +15,7 @@ const Testimonials = () => {
     return (
         <div>
             <div className="Testimonials" id='testimonials'>
+            <div className="blur6 main-blur6"></div>
                 <div className="left-t">
                     <span>{formatMessage({ id: 'testimonials' })}</span>
                     <span className='stroke-text'> {formatMessage({ id: 'whatThey' })}</span>
